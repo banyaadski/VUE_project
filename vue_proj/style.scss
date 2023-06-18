@@ -1,0 +1,462 @@
+@import 'mixins';
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 53px;
+    &_left{
+        position: relative;
+        width: 133px;
+        height: 50px;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        &_logoText{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 125%;
+            color: #292F36;
+            padding-left: 10px;
+
+        }
+    }
+    &_right{
+        position:relative;
+    width: 243px;
+    height: 25px;
+    left: 53px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+
+        &_naviText{
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 125%;
+            color: #292F36;
+        }
+    }
+}
+
+.mainBanner{
+    position: relative;
+    top: 90px;
+    &_img{
+        // position: relative;
+        border-radius: 60px;
+    }
+    &_info{
+        position: absolute;
+        top: 250px;
+       
+        margin-left: 80px;
+        &_h1{
+            width: 434px;
+            height: 162px;
+
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 65px;
+            line-height: 125%;
+            /* or 81px */
+
+            display: flex;
+            align-items: center;
+
+            color: #292F36;
+        }
+        &_p{
+            width: 433px;
+            height: 66px;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 150%;
+            /* or 33px */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.01em;
+
+            color: #4D5053;
+        }
+        &_btn{
+           
+            display: flex;
+            align-items: center;
+    flex-direction: row-reverse;
+            padding: 26px 49px 26px 48px;
+            gap: 10px;
+
+            width: 220.14px;
+            height: 75px;
+
+            background: #292F36;
+            box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+            border-radius: 18px;
+            &_p{
+                width: 98px;
+                height: 23px;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 125%;
+                /* identical to box height, or 22px */
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: 0.02em;
+
+                color: #FFFFFF;
+            }
+        }
+    }
+
+}
+.topContent{
+    position: relative;
+    top: 140px;
+    &_block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 35px;
+        
+    }
+    &_item{
+        &_h1{
+            width: 184px;
+            height: 31px;
+            
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 125%;
+            /* or 31px */
+            
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            
+            
+        }
+        &_p{
+            width: 217px;
+            height: 27px;
+            
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 150%;
+            /* or 33px */
+            
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.01em;
+            
+            color: #4D5053;
+        }
+        &_btn{
+            position: relative;
+            width: 70px;
+            height: 70px;
+            left: 479px;
+            top: -60px;
+            border-radius: 50%;
+            background: #F4F0EC;
+        }
+        &_img{
+            margin-bottom: 20px;
+        }
+    }
+    &_text{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &_mainText{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 125%;
+            /* identical to box height, or 62px */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.02em;
+
+            color: #292F36;
+        }
+        &_mainParag{
+            width: 737px;
+            height: 66px;
+            
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 150%;
+            /* or 33px */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.01em;
+            
+            color: #4D5053;
+        }
+    }
+}
+.statistics{
+    position: relative;
+    // width: 1920px;
+    height: 457px;
+    left: 0px;
+    margin-top: 140px;
+    gap: 120px;
+
+    
+    background: #F4F0EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_section{
+        
+        &_h1{
+            width: 77px;
+            height: 106px;
+            
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 85px;
+            line-height: 125%;
+            /* or 106px */
+            
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            
+            color: #CDA274;
+        }
+        &_p{
+            width: 192px;
+            height: 33px;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 150%;
+            /* identical to box height, or 33px */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.01em;
+
+            color: #4D5053;
+        }
+        &_border{
+            border-left: 1px solid black;
+        }
+    }
+}
+
+.others{
+    &_info{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 96px;
+        &_h1{
+            width: 362px;
+            height: 63px;
+            
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 125%;
+            /* identical to box height, or 62px */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.02em;
+            
+            color: #292F36;
+        }
+        &_p{
+            width: 811px;
+            height: 66px;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 150%;
+            /* or 33px */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.01em;
+
+            color: #4D5053;
+
+        }
+    }
+    &_simples{
+        display: flex;
+        margin-top: 52px;
+        gap: 30px;
+        &_simple{
+            border: 1px solid #E7E7E7;
+            border-radius: 62px;
+            &_img{
+                border-radius: 50px 50px 1px 1px;
+            }
+            &_h1{
+                width: 305px;
+                height: 70px;
+
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 125%;
+                /* or 31px */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.02em;
+
+                color: #292F36;
+            }
+            &_p{
+                margin-top: 20px;
+                width: 223px;
+                height: 33px;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                /* or 24px */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+
+                color: #4D5053;
+
+            }
+            &_btn{
+                border-radius: 50%;
+                position: relative;
+                    width: 52px;
+                    height: 52px;
+                    left: 288px;
+                    top: -40px;
+
+                    background: #F4F0EC;
+            }
+        }
+    }
+}
+.shadow{
+    background: #F4F0EC;
+border: 1px solid #E7E7E7;
+box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.25);
+border-radius: 62px;
+}
+
+.basement{
+    display: flex;
+    justify-content: space-between;
+    &_section{
+        &_left{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        &_description{
+            width: 393px;
+            height: 66px;
+            color: #4D5053;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+        }
+        &_text{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+        }
+        &_infoText{
+            width: 133px;
+            height: 50px;
+            left: 44px;
+            top: 0px;
+
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            &_add{
+                width: 87px;
+                height: 31px;
+
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+            }
+        }
+
+        &_link{
+            width: 72px;
+            height: 198px;
+            color: #4D5053;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+        }
+        &_adress{
+            width: 258px;
+            // height: 215px;
+            color: #4D5053;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+        }
+        &_right{
+            display: flex;
+    flex-direction: column;
+    gap: 15px;
+        }
+    }
+
+}
